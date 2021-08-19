@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:inherit;
+}
+header{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(Gallery/India/Shimla.png);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    
+}
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 25px;
+}
+ul li{
+    display: inline-block;
+}
+ul li a{
+     text-decoration: none;
+    color: white;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.5s ease;
+}
+ul li a:hover{
+    background-color: crimson;
+    color: white;
+}
+ul li.active a{
+    background-color: crimson;
+    color: white;
+}
+.main{
+    max-width: 1200px;
+}
+.title{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.title h1{
+    color: snow;
+    font-size: 70px;
+}
+ul li ul li{
+    display: none;
+}
+ul li:hover ul li{
+    display: block;
+}
+body{
+    font-family: sans-serif;
+}
+h1{
+    text-align: center;
+    color: forestgreen;
+    margin: 30px 0 50px;
+}
+.gallery
+{
+    margin: 50px 100px;
+        
+}
+.gallery img
+{
+    width: 310px ;
+    padding: 15px ;
+    filter: grayscale(100%);
+    transition: 1s;   
+    
+}
+.gallery img:hover{
+    filter: grayscale(0);
+    transform: scale(1.1);
+}

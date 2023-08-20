@@ -1,0 +1,158 @@
+<?php include('constants.php');?>
+<html>
+<head>
+    <title>Bangladesh</title>
+    <link href="Tourist-spot-style.css" rel="stylesheet" type="text/css">
+
+    <style>
+/*img {
+  border-radius: 50%;
+}/*
+</style>
+    
+    
+</head>
+<body>
+    <header>
+    <video autoplay loop class="video-background" muted plays-inline>
+        <source src="Videos/bd.mp4" type="video/mp4">
+     </video>
+        <div class="nav">
+        <a href="<?php echo SITEURL;?>index(after-login).php"><img src="LOGO.png" class="logo"></a>
+            
+            <ul class="menu">
+                <li><a href="<?php echo SITEURL;?>index(after-login).php">Home</a></li>
+                <li><a href="">Tourist Spot</a>
+                <ul class="sub-menu">    
+                    <li><a href="<?php echo SITEURL;?>Maldives-tourist-spot.php">Maldives</a></li>
+                     <li><a href="<?php echo SITEURL;?>Bangladesh-tourist-spot.php">Bangladesh</a></li>
+                    <li><a href="<?php echo SITEURL;?>India-tourist-spot.php">India</a></li>
+                    <li><a href="<?php echo SITEURL;?>Pakistan-tourist-spot.php">Pakistan</a></li>
+                    <li><a href="<?php echo SITEURL;?>Nepal-tourist-spot.php">Nepal</a></li>
+                    <li><a href="<?php echo SITEURL;?>Bhutan-tourist-spot.php">Bhutan</a></li>
+                    <li><a href="<?php echo SITEURL;?>SriLanka-tourist-spot.php">Sri Lanka</a></li>                
+                </ul>
+                </li>             
+                <li ><a href="">Gallery</a>
+                <ul class="sub-menu">    
+                    <li><a href="<?php echo SITEURL;?>Maldives-gallery.php">Maldives</a></li>
+                     <li><a href="<?php echo SITEURL;?>Bangladesh-gallery.php">Bangladesh</a></li>
+                    <li><a href="<?php echo SITEURL;?>India-gallery.php">India</a></li>
+                    <li><a href="<?php echo SITEURL;?>Pakistan-gallery.php">Pakistan</a></li>
+                    <li><a href="<?php echo SITEURL;?>Nepal-gallery.php">Nepal</a></li>
+                    <li><a href="<?php echo SITEURL;?>Bhutan-gallery.php">Bhutan</a></li>
+                    <li><a href="<?php echo SITEURL;?>SriLanka-gallery.php">Sri Lanka</a></li>                
+                </ul>
+                </li>   
+                
+                
+                <li><a href="">Cuisine</a>
+                <ul class="sub-menu">    
+                    <li><a href="<?php echo SITEURL;?>Cuisine-Prime/maldivesCuisine.php">Maldives</a></li>
+                     <li><a href="<?php echo SITEURL;?>Cuisine-Prime/BdCuisine.php">Bangladesh</a></li>
+                    <li><a href="<?php echo SITEURL;?>Cuisine-Prime/India-Cuisine.php">India</a></li>
+                    <li><a href="<?php echo SITEURL;?>Cuisine-Prime/Pakistan-cuisine.php">Pakistan</a></li>
+                    <li><a href="<?php echo SITEURL;?>Cuisine-Prime/nepalCuisine.php">Nepal</a></li>
+                    <li><a href="<?php echo SITEURL;?>Cuisine-Prime/Bhutan-cuisine.php">Bhutan</a></li>
+                    <li><a href="<?php echo SITEURL;?>Cuisine-Prime/SrilankaCuisine.php">Sri Lanka</a></li>                
+                </ul>
+                </li>
+                <li><a href="<?php echo SITEURL;?>Hotels.php">Hotel</a></li>
+                <li><a href="<?php echo SITEURL;?>Events.php">Event</a></li>
+                <li><a href="<?php echo SITEURL;?>Contact_US/ContactUs.php">Contact us</a></li>  
+                 <li><a href="<?php echo SITEURL;?>New_Login/profile.php">MyProfile</a></li> 
+            </ul>        
+    </div>
+        <div class="title">
+        <h1>Bangladesh</h1>
+            
+        </div>  
+    </header>
+   
+                
+    <!---section--->
+    <div class="destinations">
+       
+        <div class="feature-box">
+        <div class="feature-img">
+            
+          
+            <div class="container">
+                <img src="Gallery/bd/Sundarbans.png" style="width: 100%">
+            <div class="content">
+                <div class="feature-details"><button class="accordion"><h4>Sundarbans: The largest mangrove forest of the world</h4></button><div class="panel"><p>সুন্দরবন সমুদ্র উপকূলবর্তী পৃথিবীর সবচেয়ে বড় ম্যানগ্রোভ বনভূমি। এই বনভূমি গঙ্গা ও ব্রহ্মপুত্র মোহনায় অবস্থিত এবং ভারতের পশ্চিমবঙ্গ ও বাংলাদেশ জুড়ে বিস্তৃত। সুন্দরবন ১৯৯৭ সালে ইউনেস্কো বিশ্ব ঐতিহ্যবাহী স্থান হিসেবে স্বীকৃতি পায়। সুন্দরবনের মোট আয়তন ১০০০০ বর্গ কি.মি। এর মধ্যে বাংলাদেশ অংশের আয়তন প্রায় ৬,০১৭ বর্গ কি.মি। বনভূমিটি, বিখ্যাত রয়েল বেঙ্গল টাইগার ছাড়াও নানান ধরণের পাখি, চিত্রা হরিণ, কুমির ও সাপসহ অসংখ্য প্রজাতির প্রাণীর আবাসস্থল হিসেবে পরিচিত। এছাড়া এই বনভূমিতে বিখ্যাত সুন্দরী ও গোলপাতা গাছও পাওয়া যায়। এই বনের মৌমাছিদের তৈরি মৌচাক থেকে প্রচুর মধু সংগ্রহ করা হয় ইত্যাদি ইত্যাদি।</p></div></div>
+            </div>
+           
+            </div>
+            </div>
+        </div>
+       
+         <div class="feature-box">
+        <div class="feature-img">
+            
+            <img src="Gallery/bd/debotakhum.png" style="width: 100%">
+                <div class="container">
+                    <div class="content"><div class="feature-details"><button class="accordion"><h4>Debotakhum</h4></button><div class="panel"><p>খুমের স্বর্গরাজ্য বান্দরবান। আর এই রাজ্যের শ্রেষ্টত্বের মুকুট নিঃসন্দেহে দেবতা খুমের কাছেই যাবে। প্রায় ৬০-১০০ ফুট গভীর এই খুমের দৈর্ঘ্য ৬০০ ফুট। কথিত আছে এই খুমে লুকিয়ে আছে বিশালাকার এক নাম না জানা প্রানী। স্থানীর প্রবীনদের মধ্যে কেউ কেউ একে দেখেছেন বলেও দাবি করে থাকেন। এমন মিথগুলো কিন্তু ভ্রমনের আকর্ষন বাড়িয়ে দেয় বহুগুন। দেবতা খুমে আসার ঠিক আগেই ছোট্ট একটা খুম আছে যেটার স্থানীয় নাম "পং সু আং খুম"। এই খুমে সাতার কেটে বা খুমের সাথের নব্বই ডিগ্রী এংগেলের দেয়ালের সাথে লেগে থাকা গাছের শিকড় ধরে টারজানের মত ঝুলে ঝুলে আসতে হয় দেবতাখুমে। </p></div></div>
+            </div>
+        </div>
+        </div>
+    </div>
+        <div class="feature-box">
+        <div class="feature-img">
+            <div class="container">
+            <a href="#"><img src="Gallery/bd/kaptai%20lake%20rangamati.png" class="center"></a>
+                <div class="content"> <div class="feature-details"><button class="accordion"><h4>Kaptai Lake</h4></button><div class="panel"><p> পার্বত্য চট্রগ্রামে রয়েছে প্রাকৃতিক সৌন্দর্যে ঘেরা রাঙ্গামাটি জেলার কাপ্তাই উপজেলা। এখানেই রয়েছে এশিয়ার সবচাইতে বড় লেক কাপ্তাই লেক। এতে সবুজে ঘেরা পাহাড়ি ঝর্ণা, আঁকাবাঁকা রাস্তা এবং ছোট ছোট পাহাড়ের অপার সৌন্দর্য আপনার ব্যস্থময় জীবনে আনবে স্বস্তি। প্রায় ১১,০০০ হাজার বর্গ কিলোমিটার পর্যন্ত বিস্তৃত কৃত্রিম এই হ্রদটি দক্ষিণ এশিয়ার মধ্যে আয়তনে সবচেয়ে বড়। এই লেকের একদিকে পাহাড়গুলোতে যেমন আছে সবুজে ঘেরা গাছের সমারোহ, অপরদিকে লেকের জলে রয়েছে বহু প্রজাতির মাছ। ১৯৫৬ সালে পাকিস্তান সরকার পানি বিদ্যুৎ কেন্দ্রের জন্য কর্ণফুলি নদীর উপর নির্মান করে কাপ্তাই হ্রদ। রাঙ্গামাটি জেলার ৫৪ হাজার একর জমি প্লাবিত হয়েই এই লেকের সৃষ্টি। এটি আমেরিকান অর্থায়নে নির্মান করা হয়। পরবর্তিতে ১৯৬২ সালে পর্যটকদের জন্য উন্মুক্ত করে দেয়া হয় লেকটি। কৃত্রিম হলেও প্রকৃতির অপার সৌন্দর্য ঘিরে আছে এই হ্রদে। </p></div></div>
+            </div>
+        </div>
+        </div>
+        </div>
+        <div class="feature-box">
+        <div class="feature-img">
+            <div class="container">
+            <a href="#"><img src="Gallery/bd/Sajek.png" height="720px" width="1280px" class="center"></a>
+            
+                <div class="content"><div class="feature-details"><button class="accordion"><h4>Sajek</h4></button><div class="panel"><p> 
+নৈসর্গিক সৌন্দর্যের লীলাভূমি বাংলাদেশের অন্যতম সুন্দর এবং জনপ্রিয় স্থান সাজেক ভ্যালি। বাংলাদেশের এই বৃহত্তম ইউনিয়নটি রাঙ্গামাটি জেলার বাঘাইছড়ি উপজেলায় অবস্থিত। যার আয়তন ৭০২ বর্গমাইল। এ ইউনিয়ন ভারতের ত্রিপুরা-মিজোরাম সীমান্তবর্তী এলাকা। সমুদ্রপৃষ্ঠ থেকে এর উচ্চতা ১৮০০ ফুট। এর অবস্থান রাঙ্গামটি জেলায় হলেও খাগড়াছড়ি থেকে এখানে যাতায়াত অনেক সুবিধাজনক। কারণ, খাগড়াছড়ির দিঘীনালা থেকে এর দূরত্ব মাত্র ৪০ কিলোমিটার। তাই ভ্রমণ পিপাসুগণ দিঘীনালা থেকেই সাজেক যেতে বেশি পছন্দ করেন। সাজেক শব্দটা মনে আসলেই যে কারও চোখের সামনে ভাসে মেঘময় এক পৃথিবী। এখানে ক্ষণে ক্ষণে প্রকৃতি তার রূপ বদলায়। কখনও তীব্র শীত, মুহূর্তেই হয়তোবা শীত অথবা বর্ষা। চোখের পলকেই হয়তো বা আপনার চারপাশ ঢেকে যাবে সাদাকালো মেঘে। সাজেকের সর্বোচ্চ চূড়া কংলাক পাহাড়। চূড়ায় উঠতে উঠতে দেখতে পাবেন মিজোরাম সীমান্তের পাহাড় আর সবুজের মিতালী। </p></div></div>
+            </div>
+            </div></div>
+        </div>
+            
+        <div class="feature-box">
+        <div class="feature-img">
+            <div class="container">
+            <a href="#"><img src="Gallery/bd/saint%20martin.png"  ></a>
+                <div class="content"><div class="feature-details"><button class="accordion"><h4>Saint Martin Island</h4></button><div class="panel"><p>সেন্ট মার্টিন্‌স দ্বীপ বাংলাদেশের সর্ব দক্ষিণে বঙ্গোপসাগরের উত্তর-পূর্বাংশে অবস্থিত একটি প্রবালদ্বীপ। এটি কক্সবাজার জেলার টেকনাফ হতে প্রায় ৯ কিলোমিটার দক্ষিণে এবং মায়ানমার-এর উপকূল হতে ৮ কিলোমিটার পশ্চিমে নাফ নদীর মোহনায় অবস্থিত। প্রচুর নারিকেল পাওয়া যায় বলে স্থানীয়ভাবে একে নারিকেল জিঞ্জিরাও বলা হয়ে থাকে। কবে প্রথম এই দ্বীপটিকে মানুষ শনাক্ত করেছিল তা জানা যায় না। প্রথম কিছু আরব বণিক এই দ্বীপটির নামকরণ করেছিল জিঞ্জিরা। উল্লেখ্য এরা চট্টগ্রাম থেকে দক্ষিণ-পূর্ব এশিয়ার যাতায়াতের সময় এই দ্বীপটিতে বিশ্রামের জন্য ব্যবহার করতো। কালক্রমে চট্টগ্রাম এবং তৎসংলগ্ন মানুষ এই দ্বীপটিকে জিঞ্জিরা নামেই চিনতো।১৮৯০ খ্রিষ্টাব্দের দিকে কিছু বাঙালি এবং রাখাইন সম্প্রদায়ের মানুষ এই দ্বীপের বসতি স্থাপনের জন্য আসে। এরা ছিল মূলত মৎস্যজীবি। যতটুকু জানা যায়, প্রথম অধিবাসী হিসাবে বসতি স্থাপন করেছিল ১৩টি পরিবার। এরা বেছে নিয়েছিল এই দ্বীপের উত্তরাংশ। কালক্রমে এই দ্বীপটি বাঙালি অধ্যুষিত এলাকায় পরিণত হয়। আগে থেকেই এই দ্বীপে কেয়া এবং ঝাউগাছ ছিল। সম্ভবত বাঙালি জেলেরা জলকষ্ঠ এবং ক্লান্তি দূরীকরণের অবলম্বন হিসাবে প্রচুর পরিমাণ নারকেল গাছ এই দ্বীপে রোপণ করেছিল। কালক্রমে পুরো দ্বীপটি একসময় 'নারকেল গাছ প্রধান' দ্বীপে পরিণত হয়।</p></div></div>
+            </div>
+        </div>
+        </div>
+        </div>
+        
+       <script>var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    /* Toggle between adding and removing the "active" class,
+    to highlight the button that controls the panel */
+    this.classList.toggle("active");
+
+    /* Toggle between hiding and showing the active panel */
+    var panel = this.nextElementSibling;
+    if (panel.style.display === "block") {
+      panel.style.display = "none";
+    } else {
+      panel.style.display = "block";
+    }
+  });
+}</script> 
+        
+        
+        
+
+    
+    
+    
+    
+    </div>
+    </body>
+</html>
